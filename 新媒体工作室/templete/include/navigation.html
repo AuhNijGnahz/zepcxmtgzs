@@ -1,0 +1,39 @@
+﻿<link href="../../css/navigation.css" rel="stylesheet" />
+<script src="../../js/jquery-3.1.1.min.js"></script>
+<script src="../../layer/layer.js"></script>
+<script src="../../layui/layui.js"></script>
+<script src="../../js/commen.js"></script>
+<script src="../../js/navigation.js"></script>
+<div id="navigation">
+        <div class="navigation">
+            <ul class="layui-nav">
+                <li class="layui-nav-item">
+                    <a href="javascript:;">
+                        <img id="toplogo" src="../../images/test.png" />
+                    </a>
+                </li>
+                <li class="layui-nav-item" id="indexpage"><a href="/index.aspx">首页</a></li>
+                <li class="layui-nav-item" id="aboutpage">
+                    <a href="javascript:;">关于我们</a>
+                    <dl class="layui-nav-child">
+                        <!-- 二级菜单 -->
+                        <dd><a href="">移动模块</a></dd>
+                        <dd><a href="">后台模版</a></dd>
+                        <dd><a href="">电商平台</a></dd>
+                    </dl>
+                </li>
+                <li title="用户中心" class="layui-nav-item right btn_login loginF" id="loginpage" style="display:none;">
+                    <a class="layui-icon login" href="../../login.aspx">&#xe612; 登录</a>
+                </li>
+                <li title="用户中心" class="layui-nav-item right btn_login avatarF" id="myindexpage" style="display:none;">
+                    <a class="layui-icon avatar" id="avatarF"><img class="uavatar" /></a>
+                    <dl class="layui-nav-child">
+                        <!-- 二级菜单 -->
+                        <dd><a href="../../me/myindex.aspx">进入个人中心</a></dd>
+                        <dd><a href="javascript:;" onclick="Logout()">退出登录</a></dd>
+                    </dl>
+                </li>
+
+            </ul>
+        </div>
+    </div>

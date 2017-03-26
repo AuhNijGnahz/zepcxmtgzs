@@ -1,0 +1,38 @@
+﻿* {
+    font-family: "微软雅黑";
+}
+
+body {
+    background-color:#d1d1d1;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    -khtml-user-select: none; /*早期浏览器*/
+    user-select:none;
+}
+
+
+
+.right {
+    float: right;
+}
+
+.left {
+    float:left;
+}
+
+.main {
+    position:relative;
+    width:58%;
+    left:20%;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px 20px;
+}

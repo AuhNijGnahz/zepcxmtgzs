@@ -1,0 +1,5 @@
+I:\VSProject\新媒体工作室首页\新媒体工作室\Reference\Model.zjh.dll
+I:\VSProject\新媒体工作室首页\新媒体工作室\Reference\Model.zjh.pdb
+I:\VSProject\新媒体工作室首页\新媒体工作室\Model.zjh\obj\Debug\Model.zjh.dll
+I:\VSProject\新媒体工作室首页\新媒体工作室\Model.zjh\obj\Debug\Model.zjh.pdb
+I:\VSProject\新媒体工作室首页\新媒体工作室\Model.zjh\obj\Debug\Model.zjh.csprojResolveAssemblyReference.cache

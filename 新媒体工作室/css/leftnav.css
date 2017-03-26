@@ -1,0 +1,32 @@
+﻿/*左侧导航*/
+
+.leftnav {
+    text-align: center;
+}
+
+.leftmainnav {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.mainnav {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cnav {
+    transition: all 0.1s ease;
+    border-bottom: 1px #eae8e8 solid;
+}
+
+    .cnav:hover {
+        border-left: 4px #009aff solid;
+        color: #009aff;
+    }
+
+.cnav-this {
+    border-bottom: 1px #009aff solid;
+    border-left: 4px #009aff solid;
+}

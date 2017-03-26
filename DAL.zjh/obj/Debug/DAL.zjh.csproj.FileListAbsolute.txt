@@ -1,0 +1,4 @@
+I:\VSProject\新媒体工作室首页\新媒体工作室\Reference\DAL.zjh.dll
+I:\VSProject\新媒体工作室首页\新媒体工作室\Reference\DAL.zjh.pdb
+I:\VSProject\新媒体工作室首页\新媒体工作室\DAL.zjh\obj\Debug\DAL.zjh.dll
+I:\VSProject\新媒体工作室首页\新媒体工作室\DAL.zjh\obj\Debug\DAL.zjh.pdb
