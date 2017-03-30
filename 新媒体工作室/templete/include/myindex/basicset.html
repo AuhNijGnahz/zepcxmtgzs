@@ -5,8 +5,14 @@
             <div class="layui-input-inline">
                 <input type="text" name="nickname" required lay-verify="required" placeholder="输入新的昵称" autocomplete="off" class="layui-input">
             </div>
-            <div class="nicknameinfo layui-form-mid layui-word-aux">修改昵称提示</div>
+            <div class="nicknameinfo layui-form-mid layui-word-aux">昵称只能设置一次，设置后无法修改</div>
         </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">真实姓名</label>
+        <div class="layui-input-inline">
+            <div class="layui-form-label Nowvalue Crealname" style="text-align:left;"><span class="rz smrz">未认证</span></div>
+        </div>
+    </div>
         <div class="layui-form-item">
             <label class="layui-form-label">邮箱</label>
             <div class="layui-input-inline">
@@ -17,9 +23,7 @@
         <div class="layui-form-item">
             <label class="layui-form-label">性别</label>
             <div class="layui-input-block">
-                <div class="layui-form-label Csex" style="text-align:left;">性别</div>
-                <input type="radio" name="sex" value="男" title="男" data-sex="1" checked>
-                <input type="radio" name="sex" value="女" title="女" data-sex="2">
+                <div class="layui-form-label Nowvalue Csex" style="text-align:left;">性别</div>
             </div>
         </div>
         <div class="layui-form-item layui-form-text">
@@ -30,7 +34,7 @@
         </div>
         <div class="layui-form-item">
             <div class="layui-input-block">
-                <a class="layui-btn" lay-filter="formDemo">保存</a>
+                <a class="layui-btn btnsave">保存</a>
             </div>
         </div>
     </form>

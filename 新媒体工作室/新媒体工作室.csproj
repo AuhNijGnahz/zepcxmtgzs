@@ -298,6 +298,7 @@
   <ItemGroup>
     <Content Include="index.aspx" />
     <Content Include="templete\include\myindex\basicset.html" />
+    <Content Include="templete\include\myindex\changepwd.html" />
     <Content Include="templete\include\myindex\header.html" />
     <Content Include="templete\include\myindex\leftnav.html" />
     <Content Include="templete\include\navigation.html" />

@@ -1,0 +1,27 @@
+﻿<form name="basicinfo" class="layui-form" action="">
+    <div class="layui-form-item titleT">修改密码</div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">原密码</label>
+        <div class="layui-input-inline">
+            <input type="password" name="oldpwd" required lay-verify="required" placeholder="请输入原密码" autocomplete="off" class="layui-input">
+        </div>
+        <!--<div class="nicknameinfo layui-form-mid layui-word-aux">昵称只能设置一次，设置后无法修改</div>-->
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">新密码</label>
+        <div class="layui-input-inline">
+            <input type="password" name="newpwd" required lay-verify="required" placeholder="请输入新密码" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">确认密码</label>
+        <div class="layui-input-inline">
+            <input type="password" name="cnewpwd" required lay-verify="required" placeholder="确认新密码" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <a class="layui-btn btnsave">保存</a>
+        </div>
+    </div>
+</form>

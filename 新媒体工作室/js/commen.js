@@ -25,6 +25,7 @@ function Logout() {
     $.cookie('CLoginUser', null, { path: '/' });
     location.reload();
 }
+var islogin = false;
 $(function () {
     $('.avatarF').hide();
 
@@ -35,10 +36,12 @@ $(function () {
             $(".loginF").hide();
             $('.avatarF').show();
             //$('.avatarF').attr('title','进入个人中心');
+            islogin = true;
         }
         else {
             $(".loginF").show();
             $('.avatarF').hide();
+            islogin = false;
         }
     })
 })

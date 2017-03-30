@@ -2,6 +2,10 @@
     background-color: white;
 }
 
+.Nowvalue {
+    float:left;
+}
+
 /*顶部图片DIV */
 .infoimg {
     height: 160px;
@@ -48,8 +52,9 @@
     text-align: center;
     background-color: red;
     border-radius: 4px;
-    padding: 2px 10px;
+    padding: 0px 10px;
     font-size: 8px;
+    color:white;
 }
 /*信息类型 li */
 .type {

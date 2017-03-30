@@ -86,6 +86,7 @@ namespace 新媒体工作室.app_handle
                 else
                 {
                     rm.Info = "no";
+                    rm.Redirect = "../login.aspx";
                 }
                 return rm;
             }

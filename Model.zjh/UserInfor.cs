@@ -7,7 +7,7 @@ using com.Model.Base;
 
 namespace Model.zjh
 {
-    public class UserInfor:BaseModel
+    public class UserInfor : BaseModel
     {
         public UserInfor()
         {
@@ -24,6 +24,7 @@ namespace Model.zjh
         public string PhoneNum { get; set; }
         public string Uemail { get; set; }
         public string CreatedTime { get; set; }
+        public string Uselfdes { get; set; }
         public string Uavatar { get; set; }
         public string UIdentity { get; set; }
         public string Udepartment { get; set; }

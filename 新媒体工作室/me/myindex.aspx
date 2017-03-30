@@ -10,12 +10,18 @@
     <link href="../css/commen.css" rel="stylesheet" />
     <link href="../css/myindex.css" rel="stylesheet" />
     <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/commen.js"></script>
     <script src="../layer/layer.js"></script>
     <script src="../js/myindex.js"></script>
-    <script src="../js/commen.js"></script>
     <title>个人中心 - ZEPC新媒体工作室</title>
 </head>
 <body data-page="myindexpage">
+    <div id="notlog" class="layui-elem-quote layui-main" hidden="hidden">
+        <p>
+            你尚未登录，无法进行此操作。<br />
+            【<a href="../login.aspx">点击此处</a>】返回登录
+        </p>
+    </div>
     <!--#include file="../templete/include/navigation.html"-->
     <%-- 顶部用户信息部分 --%>
     <!--#include file="../templete/include/myindex/header.html"-->
