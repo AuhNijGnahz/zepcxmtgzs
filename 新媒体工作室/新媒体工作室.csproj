@@ -281,6 +281,7 @@
     <Content Include="login.aspx" />
     <Content Include="me\changepwd.aspx" />
     <Content Include="me\myindex.aspx" />
+    <Content Include="me\smrz.aspx" />
     <Content Include="packages.config" />
     <Content Include="layui\font\iconfont.eot" />
     <Content Include="layui\font\iconfont.ttf" />
@@ -301,6 +302,7 @@
     <Content Include="templete\include\myindex\changepwd.html" />
     <Content Include="templete\include\myindex\header.html" />
     <Content Include="templete\include\myindex\leftnav.html" />
+    <Content Include="templete\include\myindex\smrz.html" />
     <Content Include="templete\include\navigation.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -348,6 +350,13 @@
     </Compile>
     <Compile Include="me\myindex.aspx.designer.cs">
       <DependentUpon>myindex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="me\smrz.aspx.cs">
+      <DependentUpon>smrz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="me\smrz.aspx.designer.cs">
+      <DependentUpon>smrz.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

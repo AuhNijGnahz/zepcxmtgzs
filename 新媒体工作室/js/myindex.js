@@ -25,6 +25,9 @@ $(function () {
         case 'changepwd':
             $('.changepwd').parent().addClass('cnav-this').siblings().removeClass('cnav-this');
             break;
+        case 'smrz':
+            $('.shiming').parent().addClass('cnav-this').siblings().removeClass('cnav-this');
+            break;
     }
 
     $('.cnav').click(function () {
@@ -34,6 +37,10 @@ $(function () {
                 break;
             case '修改密码':
                 location.href = '../me/changepwd.aspx';
+                break;
+            case '实名认证':
+                //location.href = '../me/smrz.aspx';
+                layer.alert('该功能尚未开放！', { icon: 4, title: '实名认证' });
                 break;
         }
     })
@@ -52,6 +59,7 @@ $(function () {
                 var sex = value[7];
                 var selfdes = value[8];
                 var idd;
+                var rqid = $('.leftnav li').attr('data-rqid');
                 switch (iden) {
                     case '1':
                         idd = '管理员';
